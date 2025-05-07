@@ -1,4 +1,6 @@
 # -Global-Location-Based-Dynamic-Wallpaper-Changer-Python-
+This Python script selects a wallpaper based on the time of day for a given geographical location, determined by latitude and longitude. It fetches the timezone offset using the TimezoneDB API, then retrieves sunrise and sunset times via the Sunrise-Sunset API. The script categorizes the day into segments like sunrise, morning, noon, evening, sunset, and night, adjusting the wallpaper accordingly. It offers a dynamic desktop experience, ensuring the wallpaper reflects the natural light cycle of the user's location. The script can be integrated into personal automation workflows and customized environments for a personalized visual experience.
+
 
 
 1. **Clarification of Time Zones and UTC**:
